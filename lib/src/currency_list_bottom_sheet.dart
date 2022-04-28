@@ -55,9 +55,9 @@ Widget _builder(
 ) {
   return DraggableScrollableSheet(
     expand: false,
-    maxChildSize: 0.9,
-    initialChildSize: 0.9,
-    minChildSize: 0.8,
+    maxChildSize: 0.3,
+    initialChildSize: 0.3,
+    minChildSize: 0.3,
     builder: (BuildContext context, ScrollController controller) {
       return CurrencyListView(
         onSelect: onSelect,
